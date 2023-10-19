@@ -1,6 +1,9 @@
 #!/bin/bash
 # bootstrap script source by murmurlab: https://github.com/murmurlab/scripts/blob/master/bootstrap.sh
 
+echo 'bozulduğu için bakımda.'
+exit 1
+
 cecho()
 {
     local text="$1"
