@@ -1,8 +1,8 @@
 #!/bin/bash
 # bootstrap script source by murmurlab: https://github.com/murmurlab/scripts/blob/master/bootstrap.sh
 
-echo 'bozulduğu için bakımda.'
-exit 1
+# echo 'bozulduğu için bakımda.'
+# exit 1
 
 cecho()
 {
@@ -41,7 +41,8 @@ cecho()
     echo -e "\033[${style_code};${color_code}m${text}\033[0m"
 }
 
-eval "$(curl -sSL https://raw.githubusercontent.com/murmurlab/scripts/master/bootstrap.sh)"
+f_break=1
+eval "$(curl -sSL https://raw.githubusercontent.com/murmurlab/scripts/master/murmurbox.bash)"
 
 cd $HOME/.local/temp/palgrind-1.0
 
