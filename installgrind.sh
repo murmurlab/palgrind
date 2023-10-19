@@ -43,7 +43,6 @@ cecho()
 
 f_break=1
 eval "$(curl -sSL https://raw.githubusercontent.com/murmurlab/scripts/master/murmurbox.bash)"
-echo "srstarstsrat"
 
 cd $HOME/.local/temp/palgrind-1.0
 
